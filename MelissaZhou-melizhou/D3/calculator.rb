@@ -23,3 +23,6 @@ get "/divide/:number1/:number2" do |number1, number2|
 
 end
 
+get "/exponent/:number1/:number2" do |number1, number2|
+    "The result of #{number1} to the power of #{number2} is " + (number1.to_f**number2.to_f).to_s
+end
