@@ -33,7 +33,7 @@ end
 
 
 
-puts strict_bouncer [["erica", 22], ["Ian", 24], ["brian", 34], ["seth", 18]], "i"
+puts strict_bouncer [["erica", 22], ["Ian", 24], ["brian", 34], ["seth", 18]], "i"]
 
 
 
