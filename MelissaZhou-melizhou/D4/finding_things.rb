@@ -31,14 +31,11 @@ people = [
 ]
 
 def find_by_name(array, name_to_find)	
-	return_var = []
 	array.each do |hash|
 		if hash[:name] == name_to_find
-			return_var = hash
-			break
+			return hash
 		end 
 	end
-	return_var
 end
 
 puts find_by_name(people, "ski")
