@@ -1,5 +1,5 @@
 Conceptual Questions
-1. The route links the url address to the controller, which holds the methods that are evaluated to render a view. 
+1. The route links requests to controllers, which holds the methods that are evaluated to render a view. 
 2. Schema contains everything in the database. Database holds all the data, while the model is the framework for the content. Schema is the list of articles, the database hold information stored like the articles, and comments inputed. The two models are the comments and the articles. 
 3. Migrations allow you use create and modify database tables.  
 
