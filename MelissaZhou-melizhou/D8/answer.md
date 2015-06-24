@@ -1,4 +1,4 @@
-1. 12 routes
+1. 16 routes
 2. 2 models
 3. 3 controllers
 4. In the controller
