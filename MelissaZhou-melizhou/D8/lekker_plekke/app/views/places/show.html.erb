@@ -57,7 +57,15 @@ a {
 <h1> <%= @place.title%> </h1>
 <br>
 <br>
-<img src="@place.picture"> 
+<img src="<%= @place.picture%>"> 
 </div>
 	<p><%= @place.description %></p>
+<h2>Comments</h2>
+<%= render @place.comments %>
+
+
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+
+<h2> <%= link_to "Back", places_path %> </h2>
 </body>
